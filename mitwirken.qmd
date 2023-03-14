@@ -14,9 +14,7 @@ Note that there are five types of callouts, including:
 :::
 
 ::: {.column-margin}
-We know from *the first fundamental theorem of calculus* that for $x$ in $[a, b]$:
-
-$$\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).$$
+Sidebar text
 :::
 
 [This is a span that has the class aside which places it in the margin without a footnote number.]{.aside}
