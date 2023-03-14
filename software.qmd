@@ -1,0 +1,25 @@
+# Software
+
+
+## Software-Auswahl
+
+### Open Source
+
+- "Weights" der KI != Open Source (meistens)
+
+### Offene Standards
+
+### SaaS
+
+- Vendor Lock In
+
+## "Hard Facts" / Messbare Kriterien
+
+### Datentransfer
+
+### Energieverbrauch
+
+- Energieverbrauch beim Trainieren von KI-Modellen
+- Energieverbrauch beim Nutzen von KI-Modellen (chatgpt)
+
+### Datenvolumen/-speicher

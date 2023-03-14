@@ -1,21 +1,48 @@
 project:
   type: book
 
+lang: de
+#title-block-banner: true
+license: "CC BY-SA"
+
 book:
-  title: "x"
-  author: "Jane Doe"
-  date: "3/14/2023"
+  title: "Wissenskompendium Nachhaltigkeit in der IT"
+  author: "Arbeitsgruppe Digitales im BNW"
+  version:  "0.1 Alpha"
+  date: last-modified
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - references.qmd
+    - grundannahmen.qmd
+    - software.qmd
+    - sozial.qmd
+    - hardware.qmd
+    - betrieb.qmd
+    - sourcing.qmd
+    - agile-prozesse.qmd
+    - links.qmd
+    - quellen.qmd
+    - mitwirken.qmd
+  twitter-card: true
+  site-url: https://bnw-digital.github.io/kompendium/
+  search: true
+
+  repo-url: https://github.com/bnw-digital/kompendium/
+  repo-actions: [edit, issue]
+  downloads: [pdf, epub]
+  sharing: [twitter]
+
+
+comments:
+  utterances:
+    repo: bnw-digital/kompendium
 
 bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      dark: darkly
+      light: cosmo
   pdf:
     documentclass: scrreprt
 

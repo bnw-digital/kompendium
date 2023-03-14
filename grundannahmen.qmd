@@ -1,0 +1,9 @@
+# Grundannahmen
+
+- Right to Repair?
+- Dimensionen von Nachhaltigkeit
+    - ... bezogen auf SW, HW, IT, Betrieb, ...
+    - **Wesentlichkeit** -> welche Faktoren in welchem Bereich wie wichtig?
+
+- Ökologisch / Sozial
+- "lohnt sich finanziell"

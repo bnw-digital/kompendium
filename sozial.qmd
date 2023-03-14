@@ -1,0 +1,7 @@
+# Soziale Dimension
+
+## "do not" - Dark Patterns
+
+## Barrierefreiheit
+
+## Biases (bspw. bei KI/Algorithmen)
