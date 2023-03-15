@@ -2,18 +2,15 @@
 
 Wir freuen uns über alle, die hier mitwirken, kommentieren, oder Teile schreiben wollen :)
 
-
 ## hilfreiche Quarto Funktionen
 
 (aus der Dokumentation rauskopiert)
 
-
-:::{.callout-note}
-Note that there are five types of callouts, including: 
-`note`, `tip`, `warning`, `caution`, and `important`.
+::: callout-note
+Note that there are five types of callouts, including: `note`, `tip`, `warning`, `caution`, and `important`.
 :::
 
-::: {.column-margin}
+::: column-margin
 Sidebar text
 :::
 
@@ -21,27 +18,22 @@ Sidebar text
 
 See @knuth84 for additional discussion of literate programming.
 
-Here is an inline note.^[Inlines notes are easier to write,
-since you don't have to pick an identifier and move down to
-type the note.]
+Here is an inline note.[^mitwirken-1]
 
+[^mitwirken-1]: Inlines notes are easier to write, since you don't have to pick an identifier and move down to type the note.
 
 ## Footnotes
 
-Here is a footnote reference,[^1] and another.[^longnote]
+Here is a footnote reference,[^mitwirken-2] and another.[^mitwirken-3]
 
-[^1]: Here is the footnote.
+[^mitwirken-2]: Here is the footnote.
 
-[^longnote]: Here's one with multiple blocks.
+[^mitwirken-3]: Here's one with multiple blocks.
 
-    Subsequent paragraphs are indented to show that they
-belong to the previous footnote.
+    Subsequent paragraphs are indented to show that they belong to the previous footnote.
 
         { some.code }
 
-    The whole paragraph can be indented, or just the first
-    line.  In this way, multi-paragraph footnotes work like
-    multi-paragraph list items.
+    The whole paragraph can be indented, or just the first line. In this way, multi-paragraph footnotes work like multi-paragraph list items.
 
-This paragraph won't be part of the note, because it
-isn't indented.
+This paragraph won't be part of the note, because it isn't indented.

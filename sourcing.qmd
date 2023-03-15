@@ -3,3 +3,7 @@
 Beschaffung, Lieferketten IT
 
 Ausschreibung
+
+Community - "Zurückgeben" an die Community bei Dienstleistern
+
+-   also Dienstleister bevorzugen, die in der entsprechenden Open Source Community aktiv sind.

@@ -44,8 +44,8 @@ bibliography: references.bib
 format:
   html:
     theme: 
-      dark: darkly
       light: cosmo
+      dark: darkly
   pdf:
     documentclass: scrreprt
 
