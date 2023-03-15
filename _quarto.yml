@@ -31,8 +31,8 @@ book:
 
   repo-url: https://github.com/bnw-digital/kompendium/
   repo-actions: [edit, issue]
-  downloads: [pdf, epub]
-  sharing: [twitter]
+  downloads: [pdf]
+  #sharing: [twitter]
 
 
 comments:
