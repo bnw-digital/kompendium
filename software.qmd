@@ -22,7 +22,7 @@ Viele Diskussionen drehen sich um die Auswahl bestimmter Software, kontrastiert 
 
 -   Kommunikation mit fremden Systemen über Schnittstellen
 
-![Zusammenhang zwischen Software und den Daten, die sie konsumiert/produziert](software/img/software-data.drawio.svg)
+![Zusammenhang zwischen Software und den Daten, die sie konsumiert/produziert](software/img/software-data.drawio.png)
 
 Als Erstes sollte für jede Software identifiziert werden, welche Daten diese verarbeitet oder ggf. erstellt. Für all diese Daten kann man sich folgende Fragen stellen:
 
