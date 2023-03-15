@@ -5,6 +5,9 @@ lang: de
 #title-block-banner: true
 license: "CC BY-SA"
 
+execute: 
+  enabled: false
+
 book:
   title: "Wissenskompendium Nachhaltigkeit in der IT"
   author: "Arbeitsgruppe Digitales im BNW"
