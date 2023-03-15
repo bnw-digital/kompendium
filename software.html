@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Arbeitsgruppe Digitales im BNW">
 
-<title>Wissenskompendium Nachhaltigkeit in der IT</title>
+<title>Wissenskompendium Nachhaltigkeit in der IT - 2&nbsp; Software</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./grundannahmen.html" rel="next">
+<link href="./sozial.html" rel="next">
+<link href="./grundannahmen.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -64,7 +64,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta name="twitter:title" content="Wissenskompendium Nachhaltigkeit in der IT">
+<meta name="twitter:title" content="Wissenskompendium Nachhaltigkeit in der IT - 2&nbsp; Software">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Wissenskompendium Nachhaltigkeit in der IT</h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Software</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -119,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">Einführung</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Einführung</a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -129,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./software.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Software</span></a>
+  <a href="./software.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Software</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -181,35 +181,34 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Inhaltsverzeichnis</h2>
    
   <ul>
-  <li><a href="#einführung" id="toc-einführung" class="nav-link active" data-scroll-target="#einführung">Einführung</a></li>
+  <li><a href="#software-auswahl" id="toc-software-auswahl" class="nav-link active" data-scroll-target="#software-auswahl"><span class="toc-section-number">2.1</span>  Software-Auswahl</a>
+  <ul class="collapse">
+  <li><a href="#open-source" id="toc-open-source" class="nav-link" data-scroll-target="#open-source"><span class="toc-section-number">2.1.1</span>  Open Source</a></li>
+  <li><a href="#offene-standards" id="toc-offene-standards" class="nav-link" data-scroll-target="#offene-standards"><span class="toc-section-number">2.1.2</span>  Offene Standards</a></li>
+  <li><a href="#saas" id="toc-saas" class="nav-link" data-scroll-target="#saas"><span class="toc-section-number">2.1.3</span>  SaaS</a></li>
+  </ul></li>
+  <li><a href="#hard-facts-messbare-kriterien" id="toc-hard-facts-messbare-kriterien" class="nav-link" data-scroll-target="#hard-facts-messbare-kriterien"><span class="toc-section-number">2.2</span>  “Hard Facts” / Messbare Kriterien</a>
+  <ul class="collapse">
+  <li><a href="#datentransfer" id="toc-datentransfer" class="nav-link" data-scroll-target="#datentransfer"><span class="toc-section-number">2.2.1</span>  Datentransfer</a></li>
+  <li><a href="#energieverbrauch" id="toc-energieverbrauch" class="nav-link" data-scroll-target="#energieverbrauch"><span class="toc-section-number">2.2.2</span>  Energieverbrauch</a></li>
+  <li><a href="#datenvolumen-speicher" id="toc-datenvolumen-speicher" class="nav-link" data-scroll-target="#datenvolumen-speicher"><span class="toc-section-number">2.2.3</span>  Datenvolumen/-speicher</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/bnw-digital/kompendium/edit/main/index.qmd" class="toc-action">Seite editieren</a></p><p><a href="https://github.com/bnw-digital/kompendium/issues/new" class="toc-action">Problem melden</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/bnw-digital/kompendium/edit/main/software.qmd" class="toc-action">Seite editieren</a></p><p><a href="https://github.com/bnw-digital/kompendium/issues/new" class="toc-action">Problem melden</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Wissenskompendium Nachhaltigkeit in der IT</h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Software</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Autor:in</div>
-    <div class="quarto-title-meta-contents">
-             <p>Arbeitsgruppe Digitales im BNW </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">15. März 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -217,10 +216,41 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="einführung" class="level1 unnumbered">
-<h1 class="unnumbered">Einführung</h1>
+<section id="software-auswahl" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="software-auswahl"><span class="header-section-number">2.1</span> Software-Auswahl</h2>
+<section id="open-source" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="open-source"><span class="header-section-number">2.1.1</span> Open Source</h3>
+<ul>
+<li>“Weights” der KI != Open Source (meistens)</li>
+</ul>
+</section>
+<section id="offene-standards" class="level3" data-number="2.1.2">
+<h3 data-number="2.1.2" class="anchored" data-anchor-id="offene-standards"><span class="header-section-number">2.1.2</span> Offene Standards</h3>
+</section>
+<section id="saas" class="level3" data-number="2.1.3">
+<h3 data-number="2.1.3" class="anchored" data-anchor-id="saas"><span class="header-section-number">2.1.3</span> SaaS</h3>
+<ul>
+<li>Vendor Lock In</li>
+</ul>
+</section>
+</section>
+<section id="hard-facts-messbare-kriterien" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="hard-facts-messbare-kriterien"><span class="header-section-number">2.2</span> “Hard Facts” / Messbare Kriterien</h2>
+<section id="datentransfer" class="level3" data-number="2.2.1">
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="datentransfer"><span class="header-section-number">2.2.1</span> Datentransfer</h3>
+</section>
+<section id="energieverbrauch" class="level3" data-number="2.2.2">
+<h3 data-number="2.2.2" class="anchored" data-anchor-id="energieverbrauch"><span class="header-section-number">2.2.2</span> Energieverbrauch</h3>
+<ul>
+<li>Energieverbrauch beim Trainieren von KI-Modellen</li>
+<li>Energieverbrauch beim Nutzen von KI-Modellen (chatgpt)</li>
+</ul>
+</section>
+<section id="datenvolumen-speicher" class="level3" data-number="2.2.3">
+<h3 data-number="2.2.3" class="anchored" data-anchor-id="datenvolumen-speicher"><span class="header-section-number">2.2.3</span> Datenvolumen/-speicher</h3>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -476,10 +506,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./grundannahmen.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Grundannahmen</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./grundannahmen.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Grundannahmen</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./sozial.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Soziale Dimension</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

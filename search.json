@@ -2,29 +2,106 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "x",
+    "title": "Wissenskompendium Nachhaltigkeit in der IT",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+    "text": "Einführung"
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
+    "objectID": "grundannahmen.html",
+    "href": "grundannahmen.html",
+    "title": "1  Grundannahmen",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "Right to Repair?\nDimensionen von Nachhaltigkeit\n\n… bezogen auf SW, HW, IT, Betrieb, …\nWesentlichkeit -> welche Faktoren in welchem Bereich wie wichtig?\n\nÖkologisch / Sozial\n“lohnt sich finanziell”"
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+    "objectID": "software.html#software-auswahl",
+    "href": "software.html#software-auswahl",
+    "title": "2  Software",
+    "section": "2.1 Software-Auswahl",
+    "text": "2.1 Software-Auswahl\n\n2.1.1 Open Source\n\n“Weights” der KI != Open Source (meistens)\n\n\n\n2.1.2 Offene Standards\n\n\n2.1.3 SaaS\n\nVendor Lock In"
   },
   {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
+    "objectID": "software.html#hard-facts-messbare-kriterien",
+    "href": "software.html#hard-facts-messbare-kriterien",
+    "title": "2  Software",
+    "section": "2.2 “Hard Facts” / Messbare Kriterien",
+    "text": "2.2 “Hard Facts” / Messbare Kriterien\n\n2.2.1 Datentransfer\n\n\n2.2.2 Energieverbrauch\n\nEnergieverbrauch beim Trainieren von KI-Modellen\nEnergieverbrauch beim Nutzen von KI-Modellen (chatgpt)\n\n\n\n2.2.3 Datenvolumen/-speicher"
+  },
+  {
+    "objectID": "sozial.html#do-not---dark-patterns",
+    "href": "sozial.html#do-not---dark-patterns",
+    "title": "3  Soziale Dimension",
+    "section": "3.1 “do not” - Dark Patterns",
+    "text": "3.1 “do not” - Dark Patterns"
+  },
+  {
+    "objectID": "sozial.html#barrierefreiheit",
+    "href": "sozial.html#barrierefreiheit",
+    "title": "3  Soziale Dimension",
+    "section": "3.2 Barrierefreiheit",
+    "text": "3.2 Barrierefreiheit"
+  },
+  {
+    "objectID": "sozial.html#biases-bspw.-bei-kialgorithmen",
+    "href": "sozial.html#biases-bspw.-bei-kialgorithmen",
+    "title": "3  Soziale Dimension",
+    "section": "3.3 Biases (bspw. bei KI/Algorithmen)",
+    "text": "3.3 Biases (bspw. bei KI/Algorithmen)"
+  },
+  {
+    "objectID": "hardware.html#beschaffung",
+    "href": "hardware.html#beschaffung",
+    "title": "4  Hardware",
+    "section": "4.1 Beschaffung",
+    "text": "4.1 Beschaffung"
+  },
+  {
+    "objectID": "hardware.html#betrieb",
+    "href": "hardware.html#betrieb",
+    "title": "4  Hardware",
+    "section": "4.2 Betrieb",
+    "text": "4.2 Betrieb"
+  },
+  {
+    "objectID": "hardware.html#do-not---eingebaute-obsoleszenz",
+    "href": "hardware.html#do-not---eingebaute-obsoleszenz",
+    "title": "4  Hardware",
+    "section": "4.3 “do not” - eingebaute Obsoleszenz",
+    "text": "4.3 “do not” - eingebaute Obsoleszenz"
+  },
+  {
+    "objectID": "betrieb.html",
+    "href": "betrieb.html",
+    "title": "5  Services (Betrieb von IT-Infrastruktur)",
+    "section": "",
+    "text": "Energy aware computing"
+  },
+  {
+    "objectID": "sourcing.html",
+    "href": "sourcing.html",
+    "title": "6  Sourcing",
+    "section": "",
+    "text": "Beschaffung, Lieferketten IT\nAusschreibung"
+  },
+  {
+    "objectID": "quellen.html",
+    "href": "quellen.html",
+    "title": "Quellen",
     "section": "",
     "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "mitwirken.html#hilfreiche-quarto-funktionen",
+    "href": "mitwirken.html#hilfreiche-quarto-funktionen",
+    "title": "Mitwirken",
+    "section": "hilfreiche Quarto Funktionen",
+    "text": "hilfreiche Quarto Funktionen\n(aus der Dokumentation rauskopiert)\n\n\n\n\n\n\nHinweis\n\n\n\nNote that there are five types of callouts, including: note, tip, warning, caution, and important.\n\n\n\n\nSidebar text\nThis is a span that has the class aside which places it in the margin without a footnote number.\nSee Knuth (1984) for additional discussion of literate programming.\nHere is an inline note.1"
+  },
+  {
+    "objectID": "mitwirken.html#footnotes",
+    "href": "mitwirken.html#footnotes",
+    "title": "Mitwirken",
+    "section": "Footnotes",
+    "text": "Footnotes\nHere is a footnote reference,2 and another.3\nThis paragraph won’t be part of the note, because it isn’t indented.\n\n\n\n\nKnuth, Donald E. 1984. „Literate Programming“. Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
   }
 ]
