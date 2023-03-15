@@ -38,11 +38,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -65,10 +65,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta name="twitter:title" content="Wissenskompendium Nachhaltigkeit in der IT - 2&nbsp; Software">
+<meta name="twitter:description" content="In diesem Kapitel soll sich alles um Anwendungen drehen.">
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar floating slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -168,9 +169,11 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#software-auswahl" id="toc-software-auswahl" class="nav-link active" data-scroll-target="#software-auswahl"><span class="toc-section-number">2.1</span>  Software-Auswahl</a>
   <ul class="collapse">
-  <li><a href="#open-source" id="toc-open-source" class="nav-link" data-scroll-target="#open-source"><span class="toc-section-number">2.1.1</span>  Open Source</a></li>
-  <li><a href="#offene-standards" id="toc-offene-standards" class="nav-link" data-scroll-target="#offene-standards"><span class="toc-section-number">2.1.2</span>  Offene Standards</a></li>
-  <li><a href="#saas" id="toc-saas" class="nav-link" data-scroll-target="#saas"><span class="toc-section-number">2.1.3</span>  SaaS</a></li>
+  <li><a href="#der-besondere-wert-von-daten" id="toc-der-besondere-wert-von-daten" class="nav-link" data-scroll-target="#der-besondere-wert-von-daten"><span class="toc-section-number">2.1.1</span>  Der besondere Wert von Daten</a></li>
+  <li><a href="#sind-offene-standards-als-datenformate-möglich" id="toc-sind-offene-standards-als-datenformate-möglich" class="nav-link" data-scroll-target="#sind-offene-standards-als-datenformate-möglich"><span class="toc-section-number">2.1.2</span>  Sind <em>Offene Standards</em> als Datenformate möglich?</a></li>
+  <li><a href="#besitzt-die-software-eine-standardisierte-schnittstelle" id="toc-besitzt-die-software-eine-standardisierte-schnittstelle" class="nav-link" data-scroll-target="#besitzt-die-software-eine-standardisierte-schnittstelle"><span class="toc-section-number">2.1.3</span>  Besitzt die Software eine standardisierte Schnittstelle?</a></li>
+  <li><a href="#nutzung-von-open-source-software" id="toc-nutzung-von-open-source-software" class="nav-link" data-scroll-target="#nutzung-von-open-source-software"><span class="toc-section-number">2.1.4</span>  Nutzung von Open Source Software</a></li>
+  <li><a href="#saas" id="toc-saas" class="nav-link" data-scroll-target="#saas"><span class="toc-section-number">2.1.5</span>  SaaS</a></li>
   </ul></li>
   <li><a href="#hard-facts-messbare-kriterien" id="toc-hard-facts-messbare-kriterien" class="nav-link" data-scroll-target="#hard-facts-messbare-kriterien"><span class="toc-section-number">2.2</span>  “Hard Facts” / Messbare Kriterien</a>
   <ul class="collapse">
@@ -182,7 +185,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/bnw-digital/kompendium/edit/main/software.qmd" class="toc-action">Seite editieren</a></p><p><a href="https://github.com/bnw-digital/kompendium/issues/new" class="toc-action">Problem melden</a></p></div></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -201,21 +204,103 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="software-auswahl" class="level2" data-number="2.1">
+<p>In diesem Kapitel soll sich alles um Anwendungen drehen.</p>
+<section id="software-auswahl" class="level2 page-columns page-full" data-number="2.1">
 <h2 data-number="2.1" class="anchored" data-anchor-id="software-auswahl"><span class="header-section-number">2.1</span> Software-Auswahl</h2>
-<section id="open-source" class="level3" data-number="2.1.1">
-<h3 data-number="2.1.1" class="anchored" data-anchor-id="open-source"><span class="header-section-number">2.1.1</span> Open Source</h3>
+<p>Die Auswahl der “richtigen” Software ist schwierig: Der Markt ist schier endlos groß, regelmäßig kommt neue Software auf den Markt; und hin und wieder verschwindet auch Software wieder.</p>
+<p>Jede Software löst ein gewisses <strong>Problem</strong> für eine <strong>Zielgruppe</strong> (hoffentlich :) ).</p>
+<p>Wir beschreiben hier Kriterien, die bei Softwareauswahl in Hinblick auf Nachhaltigkeit helfen können. Ziel ist hier die Reduktion des sogenannten <strong>Vendor Lock-In</strong>, um zu ermöglichen, auch zu einem späteren Zeitpunkt die Software zu wechseln.</p>
+<section id="der-besondere-wert-von-daten" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="der-besondere-wert-von-daten"><span class="header-section-number">2.1.1</span> Der besondere Wert von Daten</h3>
+<p>Viele Diskussionen drehen sich um die Auswahl bestimmter Software, kontrastiert Programme gegeneinander, usw. Wir empfehlen einen anderen Blick: Den Fokus auf die von der Software verarbeiteten Daten, wie bspw:</p>
+<ul>
+<li><p>Dateien (Textdateien, Office-Dateien, Bild-Dateien)</p></li>
+<li><p>Datenbanken (Open Source oder Proprietär)</p></li>
+<li><p>E-Mails (empfangen oder senden)</p></li>
+<li><p>Kommunikation mit fremden Systemen über Schnittstellen</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="software/img/software-data.drawio.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Zusammenhang zwischen Software und den Daten, die sie konsumiert/produziert</figcaption><p></p>
+</figure>
+</div>
+<p>Als Erstes sollte für jede Software identifiziert werden, welche Daten diese verarbeitet oder ggf. erstellt. Für all diese Daten kann man sich folgende Fragen stellen:</p>
+</section>
+<section id="sind-offene-standards-als-datenformate-möglich" class="level3 page-columns page-full" data-number="2.1.2">
+<h3 data-number="2.1.2" class="anchored" data-anchor-id="sind-offene-standards-als-datenformate-möglich"><span class="header-section-number">2.1.2</span> Sind <em>Offene Standards</em> als Datenformate möglich?</h3>
+<p>Wenn es für das zu lösende Problem offene Standards gibt, welche das Problem umfänglich lösen, ist dies ein sehr guter Startpunkt. Dann kann man - ausgehend von dem offenen Standard - weiter nach Softwarelösungen, welche diesen Standard implementieren, suchen.</p>
+<div class="page-columns page-full"><p>Offene Standards sind lizenzkostenfrei nutz- .und implementierbar, und “gehören” nicht einer einzelnen Firma, sondern in der Regel einem (mehr oder weniger formellen) Gremium aus mehreren Akteuren. </p><div class="no-row-height column-margin column-container"><span class="">Proprietäre Standards werden in der Regel nur von einzelnen Firmen herausgegeben; häufig fallen für Nutzung auch Lizenzkosten an.</span></div></div>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Problemstellung</th>
+<th>Offener Standard</th>
+<th>Proprietärer Standard</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Office-Dokumente</td>
+<td><a href="https://de.wikipedia.org/wiki/OpenDocument">ODF - OASIS Open Document Format for Office Applications</a></td>
+<td>Word-Dateien (.doc, .docx) von Microsoft</td>
+</tr>
+<tr class="even">
+<td>E-Mail-Abruf, Kontakte, gemeinsame Kalender (PIM-Suite)</td>
+<td>IMAP + Caldav + Carddav</td>
+<td>Exchange / ActiveSync von Microsoft</td>
+</tr>
+<tr class="odd">
+<td>gemeinsamer Chat</td>
+<td><a href="https://de.wikipedia.org/wiki/Matrix_(Kommunikationsprotokoll)">Matrix-Protokoll</a></td>
+<td>bspw. Slack, Microsoft Teams</td>
+</tr>
+</tbody>
+</table>
+<p>Wenn man einen offenen Standard identifiziert hat, kann man von diesem ausgehend nach Software suchen, die ihn implementiert. Hier sind die weiteren Kriterien relevant (Open Source etc).</p>
+<p>Für viele Problemstellungen wird man noch keinen ubiquitären Standard finden. Daher sind weitere Kriterien relevant.</p>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">Mit <strong>ubiquitär</strong> meinen wir einen Standard, der sich duchgesetzt hat und breit, von vielen Marktteilnehmern, implementiert ist.</span></div></div>
+</section>
+<section id="besitzt-die-software-eine-standardisierte-schnittstelle" class="level3" data-number="2.1.3">
+<h3 data-number="2.1.3" class="anchored" data-anchor-id="besitzt-die-software-eine-standardisierte-schnittstelle"><span class="header-section-number">2.1.3</span> Besitzt die Software eine standardisierte Schnittstelle?</h3>
+<p>Falls es keinen etablierten Standard für das gewünschte Datenformat gibt, ist es hilfreich zu schauen, ob die Software eine Schnittstelle besitzt, über die alle Funktionen der Software abrufbar sind. Dies kann bspw. sein:</p>
+<ul>
+<li><p>eine API (maschinenlesbare Schnittstelle) im OpenAPI oder GraphQL Format; oder aber ausführliche und vollständige Dokumentation der API</p></li>
+<li><p>Verwendung einer <strong>Open Source Datenbank zur Datenspeicherung</strong>: In diesem Falle kann man jederzeit auf die <strong>Rohdaten</strong> der Software zugreifen - gewissermaßen “an der Software vorbei”. Wir empfehlen hier uneingeschränkt nur reine Open Source Datenbanken wie SQLite, Postgres, MariaDB oder MySQL; da für kommerzielle Datenbanken häufig die Lizenzierung einen direkten Datenzugriff verbietet, oder aber eine sehr teure Lizenz nachgekauft werden muss.</p></li>
+<li><p>Verwendung von Open Source mit Erweiterungsmöglichkeiten. In diesem Fall kann in den Quellcode der Software direkt geschaut werden, und dieser entsprechend um Import/Exportfunktionen erweitert werden.</p></li>
+</ul>
+<p>Ziel ist es, zu vermeiden, dass ein “Datensilo” entsteht, aus dem die Daten nicht mehr gewinnbringend und nachhaltig in der Organisation nutzbar sind.</p>
+</section>
+<section id="nutzung-von-open-source-software" class="level3 page-columns page-full" data-number="2.1.4">
+<h3 data-number="2.1.4" class="anchored" data-anchor-id="nutzung-von-open-source-software"><span class="header-section-number">2.1.4</span> Nutzung von Open Source Software</h3>
+<div class="page-columns page-full"><p>Open Source Software ist Software unter einer OSI-kompatiblen Lizenz wie bspw. MIT oder GPL-Lizenz. Es gibt darüber hinaus auch Lizenzen, welche nach der strikten Definition nicht OSI-kompatibel sind, aber im Alltag für die meisten Szenarien trotzdem ähnlich verwendet werden können, wie bspw. die Business Source Lizenz. </p><div class="no-row-height column-margin column-container"><span class="">Die BSL ist entstanden, um zu verhindern, dass die großen Cloud-Anbieter wie Amazon oder Google Open Source Software kostenfrei einkaufen und als kostenpflichtigen Cloud-Dienst verkaufen können, ohne sich an der Weiterentwicklung der Software zu beteiligen.</span></div></div>
+<p><strong>Wir empfehlen uneingeschränkt die Nutzung von quelloffener Software</strong>, sofern diese existiert und die notwendigen Funktionen umfasst.</p>
+<p>Bei Open Source Software, welche viele der Funktionen umfasst, aber einige Funktionen fehlen, empfehlen wir zu prüfen, ob ein Anbieter im Ökosystem der Software gefunden werden kann, der diese Funktionen im Open Source Kern der Software erweitert.</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Hinweis
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Open Source und Künstliche Intelligenz</p>
+<p>TODO: write here about weights</p>
 <ul>
 <li>“Weights” der KI != Open Source (meistens)</li>
 </ul>
+</div>
+</div>
 </section>
-<section id="offene-standards" class="level3" data-number="2.1.2">
-<h3 data-number="2.1.2" class="anchored" data-anchor-id="offene-standards"><span class="header-section-number">2.1.2</span> Offene Standards</h3>
-</section>
-<section id="saas" class="level3" data-number="2.1.3">
-<h3 data-number="2.1.3" class="anchored" data-anchor-id="saas"><span class="header-section-number">2.1.3</span> SaaS</h3>
+<section id="saas" class="level3" data-number="2.1.5">
+<h3 data-number="2.1.5" class="anchored" data-anchor-id="saas"><span class="header-section-number">2.1.5</span> SaaS</h3>
 <ul>
 <li>Vendor Lock In</li>
+<li>Fokus auf Daten: SAAS produkt, welches nur quelloffene Daten generiert, kein großes Problem.</li>
+<li>Open Source Anbieter (=Hersteller von Open Source) haben auch häufig SAAS im Angebot</li>
+<li>Open Source und SAAS - bspw. Sentry -&gt; kann funktionieren.</li>
 </ul>
 </section>
 </section>
@@ -348,7 +433,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'alternate';
+  let localAlternateSentinel = 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
