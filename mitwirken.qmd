@@ -21,11 +21,6 @@ Sidebar text
 
 See @knuth84 for additional discussion of literate programming.
 
-```{r}
-1 + 1
-```
-
-
 Here is an inline note.^[Inlines notes are easier to write,
 since you don't have to pick an identifier and move down to
 type the note.]
